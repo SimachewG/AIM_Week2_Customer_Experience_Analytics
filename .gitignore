@@ -8,7 +8,5 @@
 #__pycache__/
 #*.py[cod]
 
-.log/
-
 # ignore CSV in notebook folder
 notebook/*.csv
