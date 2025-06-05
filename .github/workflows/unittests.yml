@@ -1,0 +1,11 @@
+name: Unit Tests
+
+on:
+  workflow_dispatch:  # Manually trigger from GitHub UI
+
+jobs:
+  noop:
+    runs-on: windows-latest
+    steps:
+      - name: Do nothing (Windows placeholder)
+        run: echo "Placeholder for future unit tests on Windows"
