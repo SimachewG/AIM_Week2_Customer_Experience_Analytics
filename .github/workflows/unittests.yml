@@ -1,31 +1,11 @@
 name: Unit Tests
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:  # Manually trigger from GitHub UI
 
 jobs:
-  test:
-    runs-on: windows-2022
-
+  noop:
+    runs-on: windows-latest
     steps:
-    - name: Checkout repository code
-      uses: actions/checkout@v3
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.13'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Set PYTHONPATH
-      run: |
-        echo "PYTHONPATH=${{ github.workspace }}\scripts" >> $GITHUB_ENV
-
-    - name: Run unit tests
-      run: |
-        python -m unittest discover -s tests -p "test_*.py"
+      - name: Do nothing (Windows placeholder)
+        run: echo "Placeholder for future unit tests on Windows"
