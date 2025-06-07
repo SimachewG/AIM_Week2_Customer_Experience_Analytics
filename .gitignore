@@ -9,4 +9,4 @@
 #*.py[cod]
 
 # ignore CSV in notebook folder
-notebook/*.csv
+# notebook/*.csv
