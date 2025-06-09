@@ -10,3 +10,5 @@
 
 # ignore CSV in notebook folder
 # notebook/*.csv
+# Ignore all PNG image files
+*.png
