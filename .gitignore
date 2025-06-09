@@ -9,5 +9,7 @@
 #*.py[cod]
 
 # ignore CSV in notebook folder
-notebook/*.csv
+notebook.csv
 notebook/*bank_reviews.csv
+bank_reviews_with_sentiment_themes.csv
+bank_reviews.csv
