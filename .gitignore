@@ -10,3 +10,4 @@
 
 # ignore CSV in notebook folder
 notebook/*.csv
+notebook/*bank_reviews.csv
