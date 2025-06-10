@@ -12,3 +12,9 @@
 # notebook/*.csv
 # Ignore all PNG image files
 *.png
+
+# ignore CSV in notebook folder
+notebook.csv
+bank_reviews_with_sentiment_themes.csv
+bank_reviews.csv
+filtered_bank_reviews.csv
